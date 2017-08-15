@@ -1,15 +1,16 @@
-package = "lua-api-gateway-aws"
+package = "x-lua-api-gateway-aws"
 version = "1.7.1-0"
 source = {
-   url = "git://github.com/adobe-apiplatform/api-gateway-aws",
+   url = "git://github.com/JonoGillett/x-api-gateway-aws",
    tag = "1.7.1"
 }
 description = {
-   summary = "AWS SDK for NGINX with Lua",
+   summary = "Fork - AWS SDK for NGINX with Lua",
    detailed = [[
 Lua module for AWS APIs . The missing AWS SDK from Nginx/Openresty.
+Updated to 5 minute max timeout in LambdaService.
 Use it to proxy AWS APIs in a simple fashion, with any Http Client that you prefer.]],
-   homepage = "https://github.com/adobe-apiplatform/api-gateway-aws",
+   homepage = "https://github.com/JonoGillett/x-api-gateway-aws",
    license = "Apache 2.0"
 }
 dependencies = {
